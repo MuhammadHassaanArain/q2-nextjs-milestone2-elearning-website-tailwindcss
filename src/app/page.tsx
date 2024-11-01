@@ -1,9 +1,11 @@
 import Image from "next/image";
 import HomeImage from "../../public/Images/homepageimageforlearnhub.jpg";
 import Link from "next/link";
+import TopCourses from "./components/TopCourses";
 export default function Home() {
   return (
-    <section className="text-gray-900  bg-gray-100  text-center flex flex-col items-center  py-16 md:flex-row md:px-5 lg:px-20">
+<main>
+<section className="text-gray-900  bg-gray-100  text-center flex flex-col items-center  py-16 md:flex-row md:px-5 lg:px-20">
       <div className=" w-11/12 space-y-2 md:flex-1 md:text-start">
         <h1 className="text-2xl text-blue-600">
           Welcome to LearnHub – Your Gateway to Knowledge!
@@ -36,5 +38,7 @@ export default function Home() {
         <Image src={HomeImage} alt="HomeImage" className="lg:w-10/12 xl:7/12" />
       </div>
     </section>
+    <TopCourses/>
+</main>
   );
 }
