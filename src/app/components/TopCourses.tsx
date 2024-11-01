@@ -1,5 +1,8 @@
 import Image from "next/image";
-import CourseImage from "../../../public/Images/homepageimageforlearnhub.jpg";
+import CourseWeb3 from "../../../public/Images/web3.0imageforwebiste.jpg";
+import CourseAI from "../../../public/Images/aiimageeforwebsite.webp";
+import CourseCC from "../../../public/Images/cloudcomputingimageforwebsite.jpg";
+
 
 export default function TopCourses() {
   return (
@@ -11,7 +14,7 @@ export default function TopCourses() {
       </div>
       <main className="flex flex-col items-center md:flex-row md:justify-around">
         <section className="bg-white  rounded border border-gray-200 p-3 my-4 w-11/12 shadow-md md:px-2 md:w-1/4 ">
-          <Image src={CourseImage} alt="Courses" />
+          <Image src={CourseWeb3} alt="Courses" />
           <h3 className="text-gray-800  text-2xl py-4">Web 3.0</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
@@ -20,8 +23,8 @@ export default function TopCourses() {
           </p>
         </section>
         <section className="bg-white  rounded border border-gray-200 p-3 my-4 w-11/12 shadow-md md:px-2 md:w-1/4">
-          <Image src={CourseImage} alt="Courses" />
-          <h3 className="text-gray-800 text-2xl py-4">Web 3.0</h3>
+          <Image src={CourseAI} alt="Courses" />
+          <h3 className="text-gray-800 text-2xl py-4">Artificial Intelligence</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
             corporis. Explicabo iusto officia minima voluptates ratione
@@ -29,8 +32,8 @@ export default function TopCourses() {
           </p>
         </section>
         <section className="bg-white  rounded border border-gray-200 p-3 my-4 w-11/12 shadow-md md:px-2 md:w-1/4">
-          <Image src={CourseImage} alt="Courses" />
-          <h3 className="text-gray-800  text-2xl py-4">Web 3.0</h3>
+          <Image src={CourseCC} alt="Courses" />
+          <h3 className="text-gray-800  text-2xl py-4">Cloud Computing</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
             corporis. Explicabo iusto officia minima voluptates ratione

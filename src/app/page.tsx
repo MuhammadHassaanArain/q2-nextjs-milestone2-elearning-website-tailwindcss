@@ -2,6 +2,8 @@ import Image from "next/image";
 import HomeImage from "../../public/Images/homepageimageforlearnhub.jpg";
 import Link from "next/link";
 import TopCourses from "./components/TopCourses";
+import OurStatus from "./components/OurStatus";
+import Testenomials from "./components/Testenomials";
 export default function Home() {
   return (
 <main>
@@ -39,6 +41,8 @@ export default function Home() {
       </div>
     </section>
     <TopCourses/>
+    <OurStatus/>
+    <Testenomials/>
 </main>
   );
 }
