@@ -1,9 +1,9 @@
-"use client";
+
 export default function Contact() {
   return (
     <main className="text-gray-900 bg-gray-100">
       <h2 className="text-3xl font-bold text-blue-600 text-center py-6">
-        Contack Info
+        Contact Info
       </h2>
       <section className="lg:flex lg:justify-evenly">
         <section className="flex justify-center lg:w-2/6 mb-6 ">
@@ -28,9 +28,7 @@ export default function Contact() {
               ></textarea>
               <div className="text-center p-4 ">
                 <button
-                  onClick={() => {
-                    alert("Respond Submitted");
-                  }}
+                
                   className="font-bold bg-blue-600 p-3 text-white hover:bg-blue-400"
                 >
                   Submit

@@ -12,7 +12,7 @@ export default function AboutUs() {
           education is the cornerstone of personal and professional growth. Our
           mission is to make learning accessible to everyone, regardless of
           location, background, or previous experience, and to provide you with
-          the skills needed to thrive in today’s rapidly changing world.
+          the skills needed to thrive in today&apos;s rapidly changing world.
         </p>
       </section>
       <section>
@@ -21,7 +21,7 @@ export default function AboutUs() {
           Learn Hub was founded with a simple but powerful vision: to
           democratize learning by creating a platform where anyone, anywhere,
           can access top-tier educational content. We started with a handful of
-          courses, but over time, we've expanded to include a diverse range of
+          courses, but over time, we&apos;ve expanded to include a diverse range of
           subjects and specializations. Today, our platform is home to hundreds
           of expertly designed courses across fields such as technology,
           business, creative arts, personal development, and more.
@@ -62,7 +62,7 @@ export default function AboutUs() {
           continuous, accessible, and enjoyable. We want to empower people
           everywhere to reach their full potential and achieve their dreams. By
           offering quality, accessible education, we believe we can make a
-          meaningful impact in people’s lives, enabling them to adapt to new
+          meaningful impact in people&apos;s lives, enabling them to adapt to new
           challenges and opportunities.
         </p>
       </section>
@@ -70,9 +70,9 @@ export default function AboutUs() {
         <h3  className="text-blue-600 text-xl pt-4">Join Us on Your Learning Journey</h3>
         <p>
           Are you ready to take the next step in your education? Join the Learn
-          Hub community today and unlock your potential. Whether you're starting
-          a new career, upskilling, or simply following your curiosity, we’re
-          here to help you succeed. Let’s grow, learn, and achieve together—one
+          Hub community today and unlock your potential. Whether you&apos;re starting
+          a new career, upskilling, or simply following your curiosity, we&apos;re
+          here to help you succeed. Let&apos;s grow, learn, and achieve together—one
           course at a time.
         </p>
       </section>
